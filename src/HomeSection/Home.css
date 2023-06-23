@@ -1,0 +1,267 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+.head
+{
+    background-image: url(https://res.cloudinary.com/auca/image/upload/v1687381328/HERO-IMAGE_pyc9kw.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.headers h1{
+    text-align: center;
+    margin: 0 auto;
+    width: 46%;
+    padding-top: 120px;
+    color: #fff;
+    line-height: 41.15px;
+}
+
+.btn
+{
+  
+    border-radius: 20px;
+    font-size: 0.9rem;
+    
+}
+
+#header-Lorem-btn
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgba(155, 208, 48, 1);
+    color: rgba(0, 97, 152, 1);
+    border: none;
+    font-size: 0.9rem;
+    /* padding: 20px; */
+}
+
+
+.about-overview
+{
+  width: 1100px;
+  height: 460px;
+  background-color: #fff;
+  /* margin: 0 auto 20px; */
+  border-radius: 10px;
+  gap: 10px;
+  /* margin-top: -50px; */
+  display: inline-block;
+  position: absolute;
+  top: 109%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:0 1px 2px rgba(0,0,0,0.07),0 2px 4px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.07),0 8px 16px rgba(0,0,0,0.07),0 16px 32px rgba(0,0,0,0.07),0 32px 64px rgba(0,0,0,0.07)
+}
+
+.about-overview img
+{
+    width: 100%;
+    padding-top: 9px;
+    position: absolute;
+}
+
+.about-paragraph 
+{
+    margin: 0 auto;
+    width:50%;
+    height: 70%;
+    /* max-width: 500px; */
+    padding-top: 100px;
+    /* background-color: blue; */
+   
+}
+
+.line
+{
+    border-bottom: 3px solid rgba(154, 202, 60, 1);
+    /* padding: px; */
+    width: 30%;
+    font-weight: bold;
+}
+
+.about-paragraph h1
+{
+    color: rgba(0, 97, 152, 1);
+}
+
+.about-paragraph p
+{
+    width: 120%;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.mission-vision-objectives
+{
+    /* background-color: #41e917dd; */
+    width: 100%;
+    height: 100%;
+    padding-top: 600px;
+    position: relative;
+}
+
+.mission  h1
+{
+    /* background-color: blue;
+    width: 50%;
+    height: 40%;
+    padding: 20px; */
+    color: rgba(0, 97, 152, 1);
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.mission  p
+{
+
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.vision  p
+{
+
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.objective  p
+{
+
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.vision h1
+{
+    color: rgba(0, 97, 152, 1);
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.objective h1
+{
+    color: rgba(0, 97, 152, 1);
+    font-size: 29px;
+    font-weight: bold;
+
+}
+
+.divider
+{
+    border-bottom: 3px solid rgba(154, 202, 60, 1);
+    /* padding: px; */
+    width: 20%;
+    font-weight: bold;
+}
+
+.divider-1
+{
+    border-bottom: 3px solid rgba(154, 202, 60, 1);
+    /* padding: px; */
+    width: 10%;
+    font-weight: bold;
+}
+
+.gallery img
+
+{
+    width: 60%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid rgba(154, 202, 60, 1);
+    border-radius: 20px;
+    
+}
+
+.pictures
+{
+    padding-top: 20px;
+    box-shadow: rgba(0,0,0,0.07);
+}
+
+.gallery h1
+{
+    width: 30%;
+    color: rgba(0, 97, 152, 1);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.whatWeDo
+{
+     background-color: rgba(84, 84, 84, 1);
+     width: 100%;
+     height: 100%;
+     padding-top: 150px;
+     padding-bottom: 150px;
+     position: absolute;
+     border-radius: 5px;
+}
+
+.container-WhatWeDo
+{
+    padding-top: 50px;
+}
+
+.Lorem-1,.Lorem-2
+{
+    /* background-color: rgb(151, 19, 19); */
+     width: 100%;
+     height: 100%;
+     margin: 0 auto;
+     padding: 20px;
+     color: #fff;
+}
+
+.Lorem-2 h1
+{
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+.Lorem-1 h1
+{
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+.Lorem-2 p
+{
+    
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.Lorem-1 p
+{
+
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.whatWeDo .img1
+{
+    width: 100%;
+    bottom: 574px;    
+    position: absolute;
+    
+}
+
+.whatWeDo .img2
+{
+    width: 100%;
+    padding-top: 430px;    
+    position: absolute;
+    
+}
+
