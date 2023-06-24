@@ -6,7 +6,7 @@ import './Updates.css'
 const WhatWeDo = () => {
     return(
         <div className="whatWeDo">
-            <div>
+            <div className="images">
                 <img className="img1" src="https://res.cloudinary.com/auca/image/upload/v1687444827/Group1111_ebky3c.png"/>
                 <img className="img2" src="https://res.cloudinary.com/auca/image/upload/v1687442975/fram24_eexmqw.png"/>
             </div>
@@ -19,7 +19,7 @@ const WhatWeDo = () => {
                             <h1>Lorem ipsum dolor sit consectetur.</h1>
                             <p>Mauris suscipit faucibus felis risus lectus platea neque ut. Odio adipiscing tincidunt velit egestas convallis placerat vestibulum. </p>
                             {/* <button className="btn btn-success">Lorem ipsum</button> */}
-                            <input type="submit" value="Lorem ipsum" id="header-Lorem-btn"/>
+                            <input type="submit" value="Lorem ipsum" id="header-Lorem-btn2"/>
                         </div>
                     </Col>
 
@@ -33,16 +33,7 @@ const WhatWeDo = () => {
                         </div>
                     </Col>                    
                 </Row>
-                {/* <div className="container">
-                <div class="row justify-content-center">
-                    <div class="col-4">
-                    One of two columns
-                    </div>
-                    <div class="col-4">
-                    One of two columns
-                    </div>
-                </div>
-                </div> */}
+                
             </div>
         </div>
     );

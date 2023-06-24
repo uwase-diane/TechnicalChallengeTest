@@ -22,31 +22,34 @@ const HomePage = () => {
       
             <Navbar />       
 
+            <section id="home">
             <div className="headers">
-                <h1>Lorem ipsum dolor sit amet consectetur. Volutpat.
-                    Lorem ipsum</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur. Volutpat.</h1>
                 
             </div>   
-            <div class="text-center">
+            <div class="text-center  p-4">
             {/* <button className="btn btn-success ">Lorem ipsum</button> */}
-            <input type="submit" value="Lorem ipsum" id="header-Lorem-btn"/>
+            <input type="submit" value="Lorem ipsum" id="header-Lorem-btn1"/>
             </div>
+            </section>
         </div>
 
         <body>
             {/* about section */}
+        <section id="about">
         <div className="container">
             <AboutUs />
         
         </div>
+        </section>
 
 
         
         {/* mission-vision-objectives section */}
+       <section id="about">
        <div className="container">
        <div class="mission-vision-objectives">
-           
-        {/* <Grid> */}
+        
                 <Row>
                     
                     
@@ -92,22 +95,31 @@ const HomePage = () => {
         </div>
        </div>
 
-       <div className="container">
+       </section>
+      <section id="gallery">
+      <div className="container">
         <Gallery />
         
        </div>
-
        <div className="container-WhatWeDo">        
         <WhatWeDo />        
        </div>
+      </section>
 
+       
+      
+
+        <section id="blog">
         <div className="container">
             <LatestUpdates />
         </div>
+        </section>
 
-        <footer>
-            <Footer />
-        </footer>
+       <section id="contact">
+            <footer>
+                <Footer />
+            </footer>
+       </section>
 
         </body>
         </>

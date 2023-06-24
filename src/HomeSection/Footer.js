@@ -42,11 +42,13 @@ const Footer = () => {
                 </div>
             </div>
 
+            <div className="foot2">
             <div className='container'>
                 <div className="footer-line"></div>
                 
                 <p className="footer-p"><span className="footers-2">© 2023 Rwanda, All right Reserved. </span> |<strong> Privacy policy</strong></p>
                 
+            </div>
             </div>
         </div>
         </div>

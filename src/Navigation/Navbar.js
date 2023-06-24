@@ -15,19 +15,19 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="/">HOME</a>
+          <a className="nav-link " aria-current="page" href="#home">HOME</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" aria-current="page" href="#gallery">GALLERY</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="/about">ABOUT US</a>
+          <a className="nav-link" aria-current="page" href="#about">ABOUT US</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="/contact">CONTACT</a>
+          <a className="nav-link " aria-current="page" href="#contact">CONTACT</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="/blog">BLOG</a>
+          <a className="nav-link " aria-current="page" href="#blog">BLOG</a>
         </li>
         <li className="nav-item">
           <a className="nav-link " aria-current="page" href="#"><MdSearch className="iconLink"/></a>

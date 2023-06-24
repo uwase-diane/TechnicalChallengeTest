@@ -38,7 +38,7 @@ const LatestUpdates = () => {
 
             
 </div>
-        <div class="text-center p-2">
+        <div class="text-center p-4">
                 {/* <button className="btn btn-success ">Lorem ipsum</button> */}
                 <input type="submit" value="Lorem ipsum" id="header-Lorem-btn"/>
             </div>
